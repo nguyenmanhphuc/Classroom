@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link type="text/css" href="./css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="width: 300px; float: left; margin-left: 10px">
+        <br>
+        Alert panels
+			<div class="alert alert-success" role="alert">My name is green alert panel</div>
+        <div class="alert alert-info" role="alert">My name is blue alert panel</div>
+        <div class="alert alert-warning" role="alert">My name is orange alert panel</div>
+        <div class="alert alert-danger" role="alert">My name is purple alert panel</div>
+    </div>
+    <div style="text-align: center; width: 500px; float: left; margin-left: 10px">
+        Buttons<br>
+        <button class="btn btn-lgrey" type="button">button</button>
+        <button class="btn btn-grey" type="button">button</button>
+        <button class="btn btn-lgreen" type="button">button</button>
+        <br>
+        <br>
+        <button class="btn btn-lgrey btn-lg" type="button">button</button>
+        <button class="btn btn-grey btn-lg" type="button">button</button>
+        <button class="btn btn-lgreen btn-lg" type="button">button</button>
+
+        <br>
+        <br>
+        Horizontal button group
+		<br>
+        <br>
+        <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-lgrey">Left</button>
+            <button type="button" class="btn btn-lgrey">Middle</button>
+            <button type="button" class="btn btn-lgrey">Right</button>
+        </div>
+        <br>
+        <br>
+        Vertical button group
+        <br>
+        <br>
+        <div class="btn-group-vertical" role="group" aria-label="...">
+            <button type="button" class="btn btn-lgrey">1</button>
+            <button type="button" class="btn btn-lgrey">2</button>
+            <button type="button" class="btn btn-lgrey">3</button>
+        </div>
+    </div>
+    <div style="width: 500px; float: left; margin-left: 10px">
+        <br>
+        <br>
+        Panels
+			<div class="panel panel-primary" style="width: 300px">
+                <div class="panel-heading">Panel heading</div>
+                <div class="panel-body" style="background-color: white;">
+                    Panel content
+                </div>
+                <div class="panel-footer">Panel footer</div>
+            </div>
+        <br>
+        <div class="panel panel-success" style="width: 300px">
+            <div class="panel-heading">Hobbies</div>
+            <div class="panel-body">
+                - Reading<br>
+                - Trolling people<br>
+                - Running
+            </div>
+        </div>
+    </div>
+    <div style="width: 500px; float: left; margin-left: 10px">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Username: </span>
+            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+        </div>
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">Password: </span>
+            <input type="password"
+                placeholder="Password" class="form-control" aria-label="Amount (to the nearest dollar)">
+        </div>
+        <br />
+        <ul class="list-group">
+            <li class="list-group-item">
+                <span class="badge">900</span>
+                Cat's wallpaper
+            </li>
+            <li class="list-group-item">
+                <span class="badge">500</span>
+                Bikini's wallpaper
+            </li>
+            <li class="list-group-item">
+                <span class="badge">300</span>
+                Travelling's wallpaper
+            </li>
+            <li class="list-group-item">
+                <span class="badge">1</span>
+                Education's wallpaper
+            </li>
+        </ul>
+    </div>
+    <div style="width: 500px; float: left; margin-left: 10px; margin-top: 20px">
+        <form style="border: 1px solid #E6E6E6; padding: 10px; border-radius: 3px;">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label><br>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label><br>
+
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <br>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">
+                    Check me out
+   
+                </label>
+            </div>
+            <button type="submit" class="btn btn-grey">Submit</button>
+        </form>
+    </div>
+    <div style="width: 500px; float: left; margin-left: 10px; margin-top: 20px">
+        <h2>Images</h2>
+        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1LjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" alt="..." class="img-rounded">
+        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1LjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" alt="..." class="img-circle">
+        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1LjUiIHk9IjcwIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTQweDE0MDwvdGV4dD48L2c+PC9zdmc+" alt="..." class="img-thumbnail">
+    </div>
+    <div style="width: 500px; margin: 7px; float: left">
+        <h2>Progress bar</h2>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                60%
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                <span class="sr-only">40% Complete (success)</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                <span class="sr-only">20% Complete</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <span class="sr-only">60% Complete (warning)</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <span class="sr-only">80% Complete (danger)</span>
+            </div>
+        </div>
+    </div>
+<div class="row" style="width:500px">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for...">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div>
+  </div>
+</div>   
+</body>
+</html>

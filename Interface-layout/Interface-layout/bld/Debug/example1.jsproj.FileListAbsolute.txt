@@ -1,0 +1,52 @@
+E:\classroomonline\interface\example1\example1\bin\Debug\resources.pri
+E:\classroomonline\interface\example1\example1\bin\Debug\AppxManifest.xml
+E:\classroomonline\interface\example1\example1\bin\Debug\example1.build.appxrecipe
+E:\classroomonline\interface\example1\example1\bld\Debug\priconfig.xml
+E:\classroomonline\interface\example1\example1\bld\Debug\layout.resfiles
+E:\classroomonline\interface\example1\example1\bld\Debug\resources.resfiles
+E:\classroomonline\interface\example1\example1\bld\Debug\pri.resfiles
+E:\classroomonline\interface\example1\example1\bld\Debug\LanguageQualifiers.txt
+E:\classroomonline\interface\example1\example1\bld\Debug\ProjectArchitectures.txt
+E:\classroomonline\interface\example1\example1\bld\Debug\priconfig.xml.intermediate
+E:\classroomonline\interface\example1\example1\bld\Debug\layout.resfiles.intermediate
+E:\classroomonline\interface\example1\example1\bld\Debug\resources.resfiles.intermediate
+E:\classroomonline\interface\example1\example1\bld\Debug\pri.resfiles.intermediate
+E:\classroomonline\example1\bin\Debug\resources.pri
+E:\classroomonline\example1\bin\Debug\AppxManifest.xml
+E:\classroomonline\example1\bin\Debug\example1.build.appxrecipe
+E:\classroomonline\example1\bld\Debug\priconfig.xml.intermediate
+E:\classroomonline\example1\bld\Debug\layout.resfiles.intermediate
+E:\classroomonline\example1\bld\Debug\resources.resfiles.intermediate
+E:\classroomonline\example1\bld\Debug\pri.resfiles.intermediate
+E:\classroomonline\example1\bld\Debug\priconfig.xml
+E:\classroomonline\example1\bld\Debug\layout.resfiles
+E:\classroomonline\example1\bld\Debug\resources.resfiles
+E:\classroomonline\example1\bld\Debug\pri.resfiles
+E:\classroomonline\example1\bld\Debug\LanguageQualifiers.txt
+E:\classroomonline\example1\bld\Debug\ProjectArchitectures.txt
+E:\classroomonline\Interface-layout\bin\Debug\resources.pri
+E:\classroomonline\Interface-layout\bin\Debug\AppxManifest.xml
+E:\classroomonline\Interface-layout\bin\Debug\example1.build.appxrecipe
+E:\classroomonline\Interface-layout\bld\Debug\priconfig.xml.intermediate
+E:\classroomonline\Interface-layout\bld\Debug\layout.resfiles.intermediate
+E:\classroomonline\Interface-layout\bld\Debug\resources.resfiles.intermediate
+E:\classroomonline\Interface-layout\bld\Debug\pri.resfiles.intermediate
+E:\classroomonline\Interface-layout\bld\Debug\priconfig.xml
+E:\classroomonline\Interface-layout\bld\Debug\layout.resfiles
+E:\classroomonline\Interface-layout\bld\Debug\resources.resfiles
+E:\classroomonline\Interface-layout\bld\Debug\pri.resfiles
+E:\classroomonline\Interface-layout\bld\Debug\LanguageQualifiers.txt
+E:\classroomonline\Interface-layout\bld\Debug\ProjectArchitectures.txt
+C:\Users\Son Hung\Desktop\Interface-layout\bin\Debug\resources.pri
+C:\Users\Son Hung\Desktop\Interface-layout\bin\Debug\AppxManifest.xml
+C:\Users\Son Hung\Desktop\Interface-layout\bin\Debug\example1.build.appxrecipe
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\priconfig.xml.intermediate
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\layout.resfiles.intermediate
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\resources.resfiles.intermediate
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\pri.resfiles.intermediate
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\priconfig.xml
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\layout.resfiles
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\resources.resfiles
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\pri.resfiles
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\LanguageQualifiers.txt
+C:\Users\Son Hung\Desktop\Interface-layout\bld\Debug\ProjectArchitectures.txt

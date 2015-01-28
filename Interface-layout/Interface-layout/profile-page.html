@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.1.0.min.css" rel="stylesheet" media="screen">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="./js/default.js"></script>
+    <script src="js/jquery.js"></script>
+    <style>
+        #keep {
+            float: left;
+            background-color: #000033;
+            height: 40px;
+            padding-left: 60px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+            #keep.fixed {
+                position: fixed;
+                top: 0;
+                margin-top: 0;
+            }
+    </style>
+    <script>
+        $(function () {
+            $keep = $('#keep');
+            $paddingTop = parseFloat($keep.css('padding-top'), 10);
+            $topDefault = $keep.offset().top + $paddingTop;// vì giá tr? top jquery k tính vào position top..nên c?n tính riêng c?ng thêm
+            $leftDefault = $keep.offset().left;
+            $(window).scroll(function () {
+                $top = $(this).scrollTop();
+                if ($top >= $topDefault - $paddingTop) {
+                    $keep.addClass('fixed').css({ 'left': $leftDefault });
+                } else {
+                    $keep.removeClass('fixed');
+                }
+            });
+        });
+    </script>
+</head>
+<body class="bg-style">
+    <!-- Split button -->
+    <div style="height:180px;width: 100%;">
+		<img width="100%" height="100%"  src="images/header.png" />
+	</div>
+	
+	<div id="keep">		
+			<ul class="nav nav-pills" style="padding-left:10px;font-size:14px;">
+			<li role="presentation"><a class="main-color" href="profile-page.html">Profile</a></li>
+			<li role="presentation"><a class="main-color" href="#">Assignments</a></li>
+			<li role="presentation"><a class="main-color" href="#">Material</a></li>
+			<li role="presentation"><a class="main-color" href="#">Discussion</a></li>
+			<p style="color:white;text-align:right;padding-right: 80px;padding-top:10px;">
+				<a href=""><span class="glyphicon glyphicon-comment" aria-hidden="true" style="font-size:20px;color:white"></span></a>
+				<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"style="font-size:20px;color:white"></span>
+				<a href="profile-page.html"><span class="glyphicon glyphicon-user" aria-hidden="true"style="font-size:20px;color:gray"></span></a>
+			</p>
+			</ul>
+		
+	</div>
+    <br>
+
+    <div class="line1">
+        <div class="col1">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div style="width: 500px; margin: 7px">
+                        <div class="panel-body" style="padding-top: 15px;">
+                            <div style="display: inline-block;">
+                                <img src="./images/avatar.jpg"
+                                    width="200" height="200" alt="Phi Luu">
+                            </div>
+                            <div
+                                style="padding-left: 10px; display: inline-block; vertical-align: top;">
+                                <span
+                                    style="font-size: 26px; font-weight: bold; color: rgb(0, 0, 0);">Phi
+					Luu</span>
+                                <br />
+                                <span style="font-size: 16px">Student</span>
+                                <br />
+                                <span
+                                    style="font-size: 13px">Information Technology and Services</span><br />
+                                <span>Education</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div align="right" class="panel-footer"
+                    style="margin-top: 10px; padding-top: 10px; padding-right: 15px; height: 36px; border-top: dashed; border-top-color: rgb(51, 51, 51); border-width: 1px; background-color: rgb(236, 236, 236); background-image: -webkit-linear-gradient(top, rgb(236, 236, 236) 0%, rgb(225, 225, 225) 100%);">
+                    <span>Contact info</span>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div style="width: 500px; margin: 7px">
+                        <div class="panel-body" style="padding-top: 15px; padding-left: 15px; line-height: 160%">
+                            <div>
+                                <span style="font-size: 26px;">Experience</span>
+                            </div>
+                            <div
+                                style="padding-left: 10px; margin-top: 15px; display: inline-block; vertical-align: top;">
+                                <span style="font-size: 18px;">Web developer</span>
+                                <br />
+                                <span
+                                    style="font-size: 15px">The Nhan team</span><br />
+                                <span
+                                    style="font-size: 12px">March 2014 - Present</span><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer" align="center"
+                    style="margin-top: 10px; padding-top: 10px; height: 36px; border-top: solid; border-top-color: rgb(204, 207, 211); border-width: 1px; background-color: rgb(236, 236, 236); background-image: -webkit-linear-gradient(top, rgb(236, 236, 236) 0%, rgb(225, 225, 225) 100%);">
+                    <a>Add experience</a>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div style="width: 500px; margin: 7px">
+                        <div class="panel-body" style="padding-top: 15px; padding-left: 15px; line-height: 160%">
+                            <div>
+                                <span style="font-size: 26px;">Education</span>
+                            </div>
+                            <div
+                                style="padding-left: 10px; margin-top: 15px; display: inline-block; vertical-align: top;">
+                                <span style="font-size: 18px;">Eastern International
+					University</span>
+                                <br />
+                                <span style="font-size: 15px">2011-2015</span><br />
+                                <span style="font-size: 12px">School of engineer</span><br />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div align="center" class="panel-footer"
+                    style="margin-top: 10px; padding-top: 10px; height: 36px; border-top: solid; border-top-color: rgb(204, 207, 211); border-width: 1px; background-color: rgb(236, 236, 236); background-image: -webkit-linear-gradient(top, rgb(236, 236, 236) 0%, rgb(225, 225, 225) 100%);">
+                    <a>Add education</a>
+                </div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <!--right menu content-->
+                    <div class="right-menu">
+                        <div style="color:gray;font-weight:bold">
+							Classroom
+							<a href=""><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true" style="color:gray"></span></a>
+						</div>
+                        <div style="font-weight: 400; font-size: 14px; padding-left: 12px">
+                            <a href="">Advanced Java Programming</a><br>
+                            <a href="">IT Project Management</a><br>
+                            <a href="">Mobile Programming</a><br>
+                            <div style="font-size: 12px">
+								.................
+								<br>
+                                <a href="">more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-menu">
+                        <div style="color:gray;font-weight:bold">
+							Assignments
+							<a href=""><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true" style="color:gray"></span></a>
+						</div>	
+						<div style="font-weight: 400; font-size: 14px; padding-left: 12px">
+                            <a href="">Week 1</a><br>
+                            <a href="">Week 2</a><br>
+                            <a href="">Week 3</a><br>
+                            <div style="font-size: 12px">
+								.................
+								<br>
+                                <a href="">more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-menu">
+                        <div style="color:gray;font-weight:bold">
+							Material
+							<a href=""><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true" style="color:gray"></span></a>
+						</div>
+						<div style="font-weight: 400; font-size: 14px; padding-left: 12px">
+                            <a href="">Lesson 1</a><br>
+                            <a href="">Lesson 2</a><br>
+                            <a href="">Lesson 3</a><br>
+                            <div style="font-size: 12px">
+								.................
+								<br>
+                                <a href="">more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+  </body>
+</html>
